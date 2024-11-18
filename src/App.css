@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #b94f7acf;
+    background-color: orange;
     color: #ecebc6;
   }
   
@@ -51,16 +51,6 @@ body {
     border:2px solid rgb(125,125,235);
   }
   
-  /* User List */
-  .user-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .user-list li {
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  }
   
   .user-list li:last-child {
     border-bottom: none;
