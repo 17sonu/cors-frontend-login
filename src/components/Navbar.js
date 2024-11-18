@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navbar-item"><Link className='links' to = "/assign-users">Assign Users</Link> </div>
     <div className="navbar-item"><Link className='links' to = "/projects">Projects</Link></div>
     <div className="navbar-item"><Link className='links' to = "/user/:userId">User</Link></div>
-    <button className="login-button"><Link Link className='links' to = "/login">Login</Link></button>
+    <button className="login-button"><Link to = "/login" className='links' >Login</Link></button>
   </div>
   )
 }
