@@ -1,0 +1,73 @@
+/* Container for the entire form */
+.project-form {
+    width: 400px;
+    margin: 50px auto; /* Centers the form */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f3d784;
+    max-height: 500px; 
+    overflow-y: auto;
+  }
+  
+  /* Form Title */
+  .project-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Individual Form Group */
+  .project-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .project-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Input and Textarea Styling */
+  .project-form-input,
+  .project-form-textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9b8f8;
+  }
+  
+  /* Textarea Specific Styling */
+  .project-form-textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Submit Button Styling */
+  .project-submit-button {
+    display: block;
+    width: auto; /* Adjusts button width */
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8d15dc; /* Primary button color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* Centers the button */
+  }
+  
+  .project-submit-button:hover {
+    background-color: #cc85e6; /* Darker blue on hover */
+  }
+  
