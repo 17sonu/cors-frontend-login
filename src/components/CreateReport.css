@@ -1,0 +1,101 @@
+/* CreateReport */
+
+/* Form Container */
+.report-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #f3d784b9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.report-form-title {
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Form Groups */
+.report-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.report-form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+    color: #555;
+}
+
+.report-form-input,
+.report-form-textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #efd8f6ec;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.report-form-input:focus,
+.report-form-textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 6px rgba(0, 86, 179, 0.2);
+    outline: none;
+}
+
+.report-form-textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* File Input */
+input[type="file"] {
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Button */
+.report-submit-button {
+    display: block;
+    width: auto; /* Adjusts button width */
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #8d15dc; /* Primary button color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* Centers the button */
+}
+
+.report-submit-button:hover {
+    background-color: #cc85e6;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .report-form {
+        padding: 1.5rem;
+    }
+
+    .report-form-title {
+        font-size: 1.3rem;
+    }
+
+    .report-submit-button {
+        font-size: 0.9rem;
+    }
+}
